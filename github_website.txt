@@ -1,0 +1,26 @@
+name: "Takuto Yoshida"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  title: "Predictions of Titanic Survivors"                             # CHANGE HERE 
+  type: inverse
+  left:
+    - text: "About"
+      icon: fa-home
+      href: index.html
+    - text: "Introduction"
+      icon: fa-user 
+      href: about.html
+    - text: "Results"
+      icon: fa-file-pdf-o
+      href: cv.html
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:takutoyoshida@hsph.harvard.edu                   # CHANGE HERE 
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/YOURGITHUB       # CHANGE HERE 
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
